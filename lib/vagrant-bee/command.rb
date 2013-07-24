@@ -8,6 +8,7 @@ module VagrantPlugins
         end
         argv = parse_options(opts)
         puts argv
+        puts @env
         0
       end
     end

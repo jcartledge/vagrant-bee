@@ -5,7 +5,7 @@ module VagrantPlugins
     class Bee < Vagrant.plugin("2")
       name "Bee"
       command "bee" do
-        require_relative "command"
+        require_relative "vagrant-bee/command"
         Command
       end
     end
