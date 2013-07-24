@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jcartledge@gmail.com"]
   gem.description   = "Wrapper for https://github.com/jcartledge/bee task runner"
   gem.summary       = "Wrapper for https://github.com/jcartledge/bee task runner"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/jcartledge/vagrant-bee"
 
   gem.add_development_dependency "rake"
 

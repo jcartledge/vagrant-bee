@@ -1,29 +1,11 @@
-# Vagrant::Bee
+# VagrantPlugins::Bee
 
-TODO: Write a gem description
+A vagrant plugin to facilitate use of [bee](https://github.com/jcartledge/bee) on VMs. Intended for internal use only.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'vagrant-bee'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-bee
+    vagrant plugin install vagrant-bee
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    vagrant bee [command]
